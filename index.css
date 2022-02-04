@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  height: 620px;
+  width: 380px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #e4e4e4;
+}
+
+.cont_upper {
+  position: absolute;
+
+  width: 380px;
+  height: 278px;
+  left: 0px;
+  top: -1px;
+  border-radius: 10px 10px 0px 0px;
+  background: linear-gradient(123.75deg, #f5821f 1.87%, #ff5c00 120.46%);
+}
+
+.cont_lower {
+  position: absolute;
+  width: 355px;
+  height: 400px;
+  left: 13px;
+  top: 199px;
+
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.upper_heading {
+  position: absolute;
+  width: 53px;
+  height: 39px;
+  left: 56px;
+  top: 19px;
+
+  font-family: DM Sans;
+  font-style: Bold 700;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.upper_subheading {
+  position: absolute;
+  width: 54px;
+  height: 29px;
+  left: 56px;
+  top: 65px;
+
+  font-family: DM Sans;
+  font-style: Regular 400;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.upper_subh5 {
+  position: absolute;
+  width: 228px;
+  height: 46px;
+  left: 56px;
+  top: 104px;
+
+  font-family: DM Sans;
+  font-style: Regular 400;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 23px;
+  /* or 128% */
+
+  color: #ffffff;
+}
+
+.const_middle {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  left: 38px;
+  top: 165px;
+  background: linear-gradient(180deg, #ff7600 0%, #ff5c00 100%);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+}
+
+.mid_vector {
+  position: absolute;
+  left: 23.74%;
+  right: 78.61%;
+  top: 27.09%;
+  bottom: 66.14%;
+}
+
+.lower_heading {
+  position: absolute;
+  width: 188px;
+  height: 18px;
+  left: 39px;
+  top: 49px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #2d2d2d;
+}
+.lower_heading_qt {
+  position: absolute;
+  left: 65.69%;
+  right: 50.39%;
+  top: 13.75%;
+  bottom: 58.83%;
+}
+
+.lower_box {
+  position: absolute;
+  width: 339px;
+  height: 50px;
+  left: 8px;
+  top: 88px;
+
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.lower_box_dt {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 20px;
+  top: 18px;
+  border-radius: 50%;
+  background: rgba(255, 118, 0, 0.8);
+}
+
+.lower_box_title {
+  position: absolute;
+  width: 251px;
+  height: 21px;
+  left: 45px;
+  top: 12px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height, or 175% */
+
+  color: #2d2d2d;
+}
+.lower_box1 {
+  position: absolute;
+  width: 339px;
+  height: 50px;
+  left: 8px;
+  top: 88px;
+  margin-top: 15%;
+
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.lower_box2 {
+  position: absolute;
+  width: 339px;
+  height: 50px;
+  left: 8px;
+  top: 88px;
+  margin-top: 30%;
+
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.lower_box3 {
+  position: absolute;
+  width: 339px;
+  height: 50px;
+  left: 8px;
+  top: 88px;
+  margin-top: 45%;
+
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.lower_chat_btn {
+  position: absolute;
+  width: 268px;
+  height: 44px;
+  left: 42px;
+  top: 344px;
+
+  background: #ffffff;
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+}
+
+.lower_chat_img {
+  position: absolute;
+  top: 35%;
+  left: 7%;
+}
+
+.lower_chat_heading {
+  position: absolute;
+  left: 15%;
+  top: 25%;
+
+  font-family: DM Sans;
+  font-style: Medium 500;
+  font-weight: normal;
+}
+
+
